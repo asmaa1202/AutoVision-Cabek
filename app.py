@@ -1,5 +1,5 @@
 """
-AutoVision Pro — Détection des pièces automobile par IA (YOLOv11)
+AutoVision Cabek — Détection des pièces automobile par IA (YOLOv11)
 PFE Licence Professionnelle en Ingénierie des Données
 """
 
@@ -32,7 +32,7 @@ def get_logo_base64(path: str) -> str:
     
 
 st.set_page_config(
-    page_title="AutoVision Pro",
+    page_title="AutoVision Cabek",
     page_icon=get_logo_base64(LOGO_PATH),
     layout="wide",
     initial_sidebar_state="expanded"
@@ -536,7 +536,7 @@ with st.sidebar:
     st.markdown(f"""
     <div class="sb-brand">
         {logo_html}
-        <div class="sb-brand-name">AutoVision Pro</div>
+        <div class="sb-brand-name">AutoVision Cabek</div>
         <div class="sb-brand-sub">YOLOv11 · Détection IA</div>
     </div>
     """, unsafe_allow_html=True)
