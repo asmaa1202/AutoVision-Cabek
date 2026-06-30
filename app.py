@@ -844,8 +844,8 @@ if analyses:
                     "Pièce":              cls,
                     "Confiance (%)":      round(conf * 100, 2),
                     "Coût estimé (MAD)":  cout if cout else "",
-                    "X1": coords[0], "Y1": coords[1],
-                    "X2": coords[2], "Y2": coords[3],
+                    # "X1": coords[0], "Y1": coords[1],
+                    # "X2": coords[2], "Y2": coords[3],
                 })
 
         if all_rows:
